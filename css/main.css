@@ -1,0 +1,236 @@
+/* rest*/
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* estilos de header */
+
+header{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header img{
+    width: 15%;
+    margin-bottom: px;
+    padding-bottom: px;
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+header nav ul li a{
+    margin: 10px;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(112, 144, 56);
+    border: 2.5px solid #000000;
+}
+
+header .imgprincipal{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* estulos del main*/
+
+main{
+    text-align: center;
+    padding: 30px;
+}
+main .imgprincipal{
+    width: 30%;
+    margin-top: 30px;
+    padding-top: 30x;
+    text-align: center;
+}
+
+main h1{
+    margin-bottom: 20px; 
+    font-size: 50px;
+}
+
+main .botton{
+    background-color: #000000;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2.5px solid rgb(105, 100, 100);
+    cursor: pointer;
+}
+
+main .botton a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* estilos del footer*/
+
+footer{
+    margin-top: 15px;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+body{
+    background-color: orange;
+}
+
+/* EStilos de inicial.html*/
+
+header .headerinicial{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header img.headerinicial{
+    width: 10%;
+    margin-top: 40px;
+    padding-top: 40x;
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+header nav ul li a{
+    margin: 10px;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(112, 144, 56);
+    border: 2.5px solid #000000;
+}
+
+/* Estilos del main inicial */
+
+main h1{
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+main h3{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Estilos Galeria */
+
+.h1galeria{
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+
+.h1galeria div div img{
+    width: 900px;
+    height: 900px;
+}
+
+.galeria_img{
+   width: 500px;
+   height: 500px;
+   flex-wrap: nowrap;
+  /* margin: 15%;
+   padding: 15%;*/
+}
+
+.galeria_img.tomato_color{
+    background-color: tomato;
+    width: 800px;
+    padding: 80px;
+}
+
+/* Estilos Servicios */
+
+.item1{
+    margin-right: 1000px;
+    padding: 10px;
+    display: inline-block;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+
+.video1{
+    margin-right: 900px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.item2{
+    margin-left: 1000px;
+    padding: 10px;
+    display: block;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+.video2{
+    margin-left: 900px;
+    padding: 10px;
+    display: block;
+}
+
+.item3{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    font-family: impact; hyphenate-limit-chars: 'Arial', sans-serif;
+}
+
+.video3{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Estilos de contacto */
+
+main .botton1{
+    background-color: #000000;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2.5px solid rgb(105, 100, 100);
+    cursor: pointer;
+}
+
+main .botton2{
+    background-color: #000000;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2.5px solid rgb(105, 100, 100);
+    cursor: pointer;
+}
+
